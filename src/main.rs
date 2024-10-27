@@ -1,3 +1,6 @@
+// TCP Server
+mod server;
+
 fn main() {
-    println!("Hello, world!");
+   server::run("localhost:8080");
 }
